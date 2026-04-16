@@ -1,4 +1,3 @@
-\
     # Example commands (Windows / Anaconda Prompt)
     # Run these commands from the repository root after changing to your own project directory.
 
