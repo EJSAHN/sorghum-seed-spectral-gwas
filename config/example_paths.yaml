@@ -1,0 +1,18 @@
+# Example path configuration.
+# This file is informational only; the scripts are intended to be run with CLI arguments.
+
+project_root: /path/to/project_root
+output_subdir: analysis_outputs
+
+processed_inputs:
+  reflectance_dir: processed_inputs/reflectance
+  fluorescence_dir: processed_inputs/fluorescence
+  hapmap_file: genotypes/combined_accessions.hmp.txt
+
+reference_annotation:
+  gene_gff: reference_annotation/Sbicolor_454_v3.1.1.gene.gff3.gz
+  exon_gff: reference_annotation/Sbicolor_454_v3.1.1.gene_exons.gff3.gz
+  locus_map: reference_annotation/Sbicolor_454_v3.1.1.locus_transcript_name_map.txt
+  annotation_info: reference_annotation/Sbicolor_454_v3.1.1.P14.annotation_info.txt.gz
+  defline: reference_annotation/Sbicolor_454_v3.1.1.P14.defline.txt.gz
+  synonym: reference_annotation/Sbicolor_454_v3.1.1.synonym.txt
