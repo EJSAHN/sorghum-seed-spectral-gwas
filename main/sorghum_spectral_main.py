@@ -4,8 +4,7 @@
 Sorghum seed spectral manifold and GWAS analysis.
 
 This script implements the manuscript-level downstream analysis pipeline used
-for the Senegal sorghum spectral manuscript. It is designed to run from a
-project root directory without hard-coded machine-specific paths.
+for the Senegal sorghum spectral manuscript.
 
 The script can:
   - build spectral summary matrices from processed hyperspectral summaries
@@ -19,7 +18,6 @@ The script can:
 Notes
 -----
 - Raw hyperspectral image cubes are not bundled with this package.
-- The script reproduces manuscript-level curated analyses from processed inputs.
 - GEMMA is not bundled here; this script prepares GEMMA inputs and summarizes
   outputs after external GEMMA execution.
 """
