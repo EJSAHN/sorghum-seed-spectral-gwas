@@ -6,9 +6,6 @@ Sorghum seed inter-seed distribution GWAS post-processing.
 This script performs downstream post-GWAS processing for inter-seed optical
 heterogeneity traits using existing GEMMA association outputs and gene summary
 files produced by the main manuscript analysis.
-
-The script is designed to run from a project root directory without
-hard-coded machine-specific paths.
 """
 
 from __future__ import annotations
