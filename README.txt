@@ -1,6 +1,6 @@
 # Sorghum Seed Spectral Manifold
 
-This repository contains the analysis workflow used for downstream spectral, morphology, GWAS, and inter-seed heterogeneity analyses in Senegalese sorghum seeds. It is organized to rerun manuscript-level analyses from curated phenotype/genotype inputs and GWAS summary files, without machine-specific hard-coded paths.
+This repository contains the analysis workflow used for downstream spectral, morphology, GWAS, and inter-seed heterogeneity analyses in Senegalese sorghum seeds.
 
 ## Repository layout
 
