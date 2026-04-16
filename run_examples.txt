@@ -1,5 +1,5 @@
-    # Example commands (Windows / Anaconda Prompt)
-    # Run these commands from the repository root after changing to your own project directory.
+# Example commands (Windows / Anaconda Prompt)
+# Run these commands from the repository root after changing to your own project directory.
 
     # 1) Core manuscript pipeline
     conda activate gwas_env
