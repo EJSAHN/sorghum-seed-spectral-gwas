@@ -1,20 +1,20 @@
 # Example commands (Windows / Anaconda Prompt)
 # Run these commands from the repository root after changing to your own project directory.
 
-    # 1) Core manuscript pipeline
-    conda activate gwas_env
-    cd C:\path\to\sorghum-seed-spectral-manifold
-    python main\sorghum_spectral_main.py --project-root C:\path\to\project_root
+# 1) Core manuscript pipeline
+conda activate gwas_env
+cd C:\path\to\sorghum-seed-spectral-manifold
+python main\sorghum_spectral_main.py --project-root C:\path\to\project_root
 
-    # 2) Inter-seed post-GWAS processing
-    conda activate gwas_env
-    cd C:\path\to\sorghum-seed-spectral-manifold
-    python main\sorghum_interseed_postgwas.py --project-root C:\path\to\project_root
+# 2) Inter-seed post-GWAS processing
+conda activate gwas_env
+cd C:\path\to\sorghum-seed-spectral-manifold
+python main\sorghum_interseed_postgwas.py --project-root C:\path\to\project_root
 
-    # 3) Additional downstream summary analyses (tables only)
-    conda activate gwas_env
-    cd C:\path\to\sorghum-seed-spectral-manifold
-    python support\support_tables.py --project-root C:\path\to\project_root --output-dir C:\path\to\project_root\analysis_outputs\tables --verbose
+# 3) Additional downstream summary analyses (tables only)
+conda activate gwas_env
+cd C:\path\to\sorghum-seed-spectral-manifold
+python support\support_tables.py --project-root C:\path\to\project_root --output-dir C:\path\to\project_root\analysis_outputs\tables --verbose
 
-    # Optional: fast validation without workbook export
-    python support\support_tables.py --project-root C:\path\to\project_root --output-dir C:\path\to\project_root\analysis_outputs\tables --verbose --skip-workbook
+# Optional: fast validation without workbook export
+python support\support_tables.py --project-root C:\path\to\project_root --output-dir C:\path\to\project_root\analysis_outputs\tables --verbose --skip-workbook
